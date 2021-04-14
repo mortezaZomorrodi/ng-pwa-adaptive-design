@@ -1,0 +1,16 @@
+.product-grid-item-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem
+}
+
+.product-grid-item.card {
+  text-align: center;
+  margin: 1rem 0;
+
+  &:nth-child(odd) {
+    background-color: #f1efbc;
+  }
+}
+
